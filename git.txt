@@ -1,0 +1,14 @@
+git init
+git branch -M main
+git add .
+git commit -m " --- "
+git origin -u push main
+
+ssh key to ssh agent
+$ ssh-keygen -t rsa -C "your_email@example.com"
+add
+$ eval "$(ssh-agent -s)"
+$ ssh-add ~/.ssh/rsa
+
+
+
